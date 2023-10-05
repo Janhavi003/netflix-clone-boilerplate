@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
+
+body{
+    margin:0%;
+    padding: 0%;
+    
+}
+
+/* styling nav-bar and header */
+header{
+    background-image:url(./assets/Title-Image.png);
+    background-size: cover;
+    font-family: sans-serif,poppins;
+   
+}
+  
+.nav-bar ul li a#logo img{
+    width: auto;
+    height: 30px;
+}
+.nav-bar{
+    overflow: hidden;
+}
+
+.nav-bar a{
+    float: left;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  color:rgb(255, 255, 255);
+  
+}
+.nav-bar li.split {
+   float: right;
+   padding:10px 0px;
+}
+
+.nav-bar ul li img{
+    width:30px;
+   height:20px;
+}
+.nav-bar ul li{
+    display: inline;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+/* styling the content */
+main{
+    background-image: linear-gradient(rgb(93, 91, 91),black);
+   
+}
+
+.Maid{
+    margin-top:310px;
+    margin-left:50px;
+   
+}
+.Maid img{
+    height:45px;
+    width:25px;
+}
+.Maid h1{
+ Font-size:25px;
+ color:white;
+ display: inline;
+  
+}
+
+.Maid strong{
+    Font-size:150px;
+    color:white;
+    display: block;
+}
+
+/* styling of play and moreinfo button */
+ #Play img{
+ width: 10px;
+ height:15px;
+}
+#Play{
+    border-radius: 7px;
+    padding: 10px 5px 10px 5px;
+    width:90px;
+    text-decoration: none;
+    align-items: center;
+    box-shadow: none;
+}
+
+#Moreinfo img{
+    width:10px;
+    height:15px;
+    
+}
+
+#Moreinfo{
+    width:120px;
+    height: 50px;
+    border-radius: 7px;
+    padding:10px 5px 10px 5px;
+    color:white;
+    background-color: rgb(170, 168, 168);
+}
+
+#add{
+    width: 35px;
+    height:30px;
+    margin-left:1450px;
+}
+/* styling the content */
+.seeyouagain{
+    overflow: hidden;
+}
+
+.seeyouagain h2{
+ color: white;
+ font-size: 20px;
+ padding-left: 100px;
+}
+
+.seeyouagain h2 img{
+    width:auto;
+    height:15px;
+}
+
+.seeyouagain a{
+    float: left;
+    margin: 0%;
+  text-decoration: none;
+  
+}
+
+.seeyouagain a img{
+    width: 295px;
+    height: 150px;
+}
+
+.seeyouagain ul li{
+ display: inline;
+list-style-type: none;
+}
+
+.top10{
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+.top10 h2{
+ color: white;
+ font-size: 20px;
+ padding-left: 100px;
+}
+
+.top10 h2 img{
+    width:auto;
+    height:15px;
+}
+
+.top10 a{
+    float: left;
+    margin: 0%;
+  text-decoration: none;
+  
+}
+
+.top10 a img.img1{
+    width: 105px;
+    height: 150px;
+    position: relative;
+    z-index: 1;
+}
+
+.top10 a img.img2{
+    width: 125px;
+    height: 150px;
+    position: relative;
+    z-index: 2;
+}
+
+.top10 ul li{
+ display: inline;
+list-style-type: none;
+}
+
+.trendingnow{
+    overflow: hidden;
+}
+
+.trendingnow h2{
+ color: white;
+ font-size: 20px;
+ padding-left: 100px;
+}
+
+.trendingnow h2 img{
+    width:auto;
+    height:15px;
+}
+
+.trendingnow a{
+    float: left;
+    margin: 0%;
+  text-decoration: none;
+  
+}
+
+.trendingnow a img{
+    width: 295px;
+    height: 150px;
+}
+
+.trendingnow ul li{
+ display: inline;
+list-style-type: none;
+}
+
+.sci-fi{
+    overflow: hidden;
+    
+}
+
+.sci-fi h2{
+ color: white;
+ font-size: 20px;
+ padding-left: 100px;
+}
+
+.sci-fi h2 img{
+    width:auto;
+    height:15px;
+}
+
+.sci-fi a{
+    float: left;
+    margin: 0%;
+  text-decoration: none;
+  
+}
+
+.sci-fi a img{
+    width: 295px;
+    height: 150px;
+}
+
+.sci-fi ul li{
+ display: inline;
+list-style-type: none;
+}
+
+/* styling of footer */
+.footer-images{
+    overflow: hidden;
+    
+}
+
+.footer-images a{
+    float:left;
+  text-align: center;
+  margin-left: 100px;
+  padding-top: 50px;
+  text-decoration: none;
+}
+
+.footer-images{
+    display: inline;
+    list-style-type: none;   
+}
+
+.text h4{
+    margin-bottom:0px;
+ font-size: 15px;
+ padding-left: 100px;
+}
+
+
+
+
+
+
